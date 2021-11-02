@@ -7,7 +7,7 @@
 4. Move into the repository ``` cd <repository-name> ```.
 5. Run ``` terraform init ```
 7. Run ``` terraform apply ```
-8. Non-sensitive variables will be displayed output.
+8. Non-sensitive variables will be displayed after terraform apply is complete.
 8. Point your browser to http://<public_ip> .
 9. To retrieve the SSH key ``` terraform output -raw vm_tls_private_key > ~/.ssh/azure_vm.pem ```
 10. To SSH into the virtual machine instance
